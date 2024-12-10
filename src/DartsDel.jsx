@@ -30,7 +30,7 @@ export const DartsDel = () => {
                         <div className="card-body">
                             
                             <Link to={darts.profile_url} className="btn btn-success fs-6" target="_blank">Profil link</Link><br/><br/>
-                           <img src={Darts.image_url ? Darts.image_url : "https://via.placeholder.com/400x800"} 
+                           <img src={darts.image_url ? darts.image_url : "https://via.placeholder.com/400x800"} 
                            alt={darts.name} className="img fluid" style={{width: "200px"}} />
                            <br/><br/>
                            <form onSubmit={
